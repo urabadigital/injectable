@@ -252,9 +252,11 @@ packages:
   injectable:
     dependency: "direct main"
     description:
-      path: "../injectable"
-      relative: true
-    source: path
+      path: injectable
+      ref: master
+      resolved-ref: ac30648a211b19ca8baf9de8c49a0190adfec30a
+      url: "https://github.com/urabadigital/injectable.git"
+    source: git
     version: "2.4.1"
   io:
     dependency: transitive

@@ -14,9 +14,11 @@ dependencies:
   analyzer: ">=6.4.1 <7.0.0"
   code_builder: ^4.10.0
   dart_style: ^2.0.3
-  injectable:
-    # ^2.4.1
-    path: ../injectable
+  injectable: # ^2.4.1
+    git:
+      url: https://github.com/urabadigital/injectable.git
+      ref: master
+      path: injectable
   collection: ^1.17.1
   recase: ^4.1.0
   meta: ^1.12.0
